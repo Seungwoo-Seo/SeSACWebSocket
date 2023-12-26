@@ -11,6 +11,10 @@
 		5715F2C52B3A614E008C0A45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2C42B3A614E008C0A45 /* ContentView.swift */; };
 		5715F2C72B3A6153008C0A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5715F2C62B3A6153008C0A45 /* Assets.xcassets */; };
 		5715F2CA2B3A6153008C0A45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5715F2C92B3A6153008C0A45 /* Preview Assets.xcassets */; };
+		5715F2D12B3A627D008C0A45 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2D02B3A627D008C0A45 /* WebSocketManager.swift */; };
+		5715F2D32B3A6B08008C0A45 /* SocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2D22B3A6B08008C0A45 /* SocketViewModel.swift */; };
+		5715F2D52B3A6BE9008C0A45 /* SocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2D42B3A6BE9008C0A45 /* SocketView.swift */; };
+		5715F2D72B3A7D2C008C0A45 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2D62B3A7D2C008C0A45 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5715F2C42B3A614E008C0A45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5715F2C62B3A6153008C0A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5715F2C92B3A6153008C0A45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5715F2D02B3A627D008C0A45 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		5715F2D22B3A6B08008C0A45 /* SocketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewModel.swift; sourceTree = "<group>"; };
+		5715F2D42B3A6BE9008C0A45 /* SocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketView.swift; sourceTree = "<group>"; };
+		5715F2D62B3A7D2C008C0A45 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				5715F2C22B3A614E008C0A45 /* SeSACWebSocketApp.swift */,
 				5715F2C42B3A614E008C0A45 /* ContentView.swift */,
+				5715F2D42B3A6BE9008C0A45 /* SocketView.swift */,
+				5715F2D02B3A627D008C0A45 /* WebSocketManager.swift */,
+				5715F2D62B3A7D2C008C0A45 /* Model.swift */,
+				5715F2D22B3A6B08008C0A45 /* SocketViewModel.swift */,
 				5715F2C62B3A6153008C0A45 /* Assets.xcassets */,
 				5715F2C82B3A6153008C0A45 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5715F2C52B3A614E008C0A45 /* ContentView.swift in Sources */,
+				5715F2D52B3A6BE9008C0A45 /* SocketView.swift in Sources */,
+				5715F2D32B3A6B08008C0A45 /* SocketViewModel.swift in Sources */,
+				5715F2D72B3A7D2C008C0A45 /* Model.swift in Sources */,
 				5715F2C32B3A614E008C0A45 /* SeSACWebSocketApp.swift in Sources */,
+				5715F2D12B3A627D008C0A45 /* WebSocketManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
