@@ -15,6 +15,7 @@
 		5715F2D32B3A6B08008C0A45 /* SocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2D22B3A6B08008C0A45 /* SocketViewModel.swift */; };
 		5715F2D52B3A6BE9008C0A45 /* SocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2D42B3A6BE9008C0A45 /* SocketView.swift */; };
 		5715F2D72B3A7D2C008C0A45 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2D62B3A7D2C008C0A45 /* Model.swift */; };
+		5715F2DB2B3BB961008C0A45 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715F2DA2B3BB961008C0A45 /* SwiftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5715F2D22B3A6B08008C0A45 /* SocketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewModel.swift; sourceTree = "<group>"; };
 		5715F2D42B3A6BE9008C0A45 /* SocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketView.swift; sourceTree = "<group>"; };
 		5715F2D62B3A7D2C008C0A45 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5715F2DA2B3BB961008C0A45 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				5715F2C22B3A614E008C0A45 /* SeSACWebSocketApp.swift */,
 				5715F2C42B3A614E008C0A45 /* ContentView.swift */,
+				5715F2DA2B3BB961008C0A45 /* SwiftViewController.swift */,
 				5715F2D42B3A6BE9008C0A45 /* SocketView.swift */,
 				5715F2D02B3A627D008C0A45 /* WebSocketManager.swift */,
 				5715F2D62B3A7D2C008C0A45 /* Model.swift */,
@@ -155,6 +158,7 @@
 				5715F2D72B3A7D2C008C0A45 /* Model.swift in Sources */,
 				5715F2C32B3A614E008C0A45 /* SeSACWebSocketApp.swift in Sources */,
 				5715F2D12B3A627D008C0A45 /* WebSocketManager.swift in Sources */,
+				5715F2DB2B3BB961008C0A45 /* SwiftViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
